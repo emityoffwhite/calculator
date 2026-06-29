@@ -43,7 +43,6 @@ type Parser struct {
 
 	curToken  lexer.Token
 	peekToken lexer.Token
-	err       error
 }
 
 // New создаёт Parser для переданной входной строки.
